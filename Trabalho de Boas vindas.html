@@ -12,14 +12,20 @@
 		.dir{
 			display: flex;
   			justify-content: center;
-  			width: 500px;
+  			width: 35%;
   			height: 500px;
   			border: 3px solid black;
 		}
 		.cadastro{
 			display: flex;
   			justify-content: center;
+  			position: absolute;
+  			top:30%;
 
+		}
+		fieldset{
+			width: 300px;
+			height: 200px;
 		}
 
 	</style>
@@ -29,7 +35,7 @@
 <dir class="dir">
 	<dir>
 
-	<h1 style="font-size: 20px;">SISTEMA DE ENSINO</h1>
+	<h1 style="font-size:20px;text-align: center;">SISTEMA DE ENSINO</h1>
 
 	</dir>
 	<br>
@@ -38,7 +44,8 @@
 	<fieldset>
 		<legend>CADASTRO DE ALUNO</legend>
 		<form>
-			
+			<label>Matrícula(número)</label>
+			<input type="text" name="matricula">
 		</form>
 	</fieldset>
 </dir>	
